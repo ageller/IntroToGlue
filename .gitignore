@@ -17,3 +17,7 @@ __pycache__
 # vim files # 
 ###################
 *.swp
+
+# large data file #
+#####################
+Taxi_Trips.csv

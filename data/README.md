@@ -1,3 +1,5 @@
-Data were downloaded from the 
-- sbdb_query_results.csv : [JPL Small-Body Database](https://ssd.jpl.nasa.gov/sbdb_query.cgi), all NEOs data and all fields.
-- cneos_closeapproach_data.csv : [NEO Earth Close Approaches archive](https://cneos.jpl.nasa.gov/ca/), all available data from Nomial dist. <= 10LD
+Data were downloaded from the  [Chicago Data Portal](https://data.cityofchicago.org/) 
+- Transportation / [Taxi Trips](https://data.cityofchicago.org/Transportation/Taxi-Trips/wrvz-psew/data) (2021 data)
+- Facilities & Geographic Boundaries / [Street Center Lines](https://data.cityofchicago.org/Transportation/Street-Center-Lines/6imu-meau)
+- Facilities & Geographic Boundaries / [Boundaries - Community Areas (current)](https://data.cityofchicago.org/Facilities-Geographic-Boundaries/Boundaries-Community-Areas-current-/cauq-8yn6)
+- Satellite map of Chicago was downloaded using Google's Earth Engine.  See details in the PrepChicagoData.ipynb file.

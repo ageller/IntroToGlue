@@ -21,5 +21,6 @@ __pycache__
 # large data file #
 #####################
 Taxi_Trips.csv
+ChicagoTaxi.csv
 Street\ Center\ Lines
 Boundaries\ -\ Community\ Areas\ \(current\)

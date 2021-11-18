@@ -5,14 +5,17 @@ Please see the jupyter notebook ([PrepChicagoData.ipynb](https://github.com/agel
 Data were downloaded from the  [Chicago Data Portal](https://data.cityofchicago.org/).
 - Crimes
   - Original dataset: Public-Safety / [Crimes-2001-to-Present](https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-Present/ijzp-q8t2/data) (2021 data)
-  - [ChicagoCrime_10k.csv](https://github.com/ageller/IntroToGlue/blob/main/data/ChicagoCrime_10k.csv) (first 10k lines of the 2021 crime data)
+  - [ChicagoCrime_10k.csv](https://github.com/ageller/IntroToGlue/blob/main/data/ChicagoCrime_10k.csv) (first 10k lines)
+  - [ChicagoCrime.csv](https://drive.google.com/file/d/1Kx7Kr-hj7Nb6LatpG4zC-o2XiEARHPqC/view?usp=sharing) (full file, 175k lines, on Google Drive )
 - Taxis
   - Original dataset: Transportation / [Taxi Trips](https://data.cityofchicago.org/Transportation/Taxi-Trips/wrvz-psew/data) (2021 data)
-  - [ChicagoTaxi_10k.csv](https://github.com/ageller/IntroToGlue/blob/main/data/ChicagoTaxi_10k.csv) (first 10k lines of the 2021 taxi data)
+  - [ChicagoTaxi_10k.csv](https://github.com/ageller/IntroToGlue/blob/main/data/ChicagoTaxi_10k.csv) (first 10k lines)
+  - [ChicagoTaxi.csv](https://drive.google.com/file/d/1QfXInoBSQOYY7OtkqcaWms9OROCW6T_t/view?usp=sharing) (full file, 3.1M lines, on Google Drive)
   - [ChicagoTaxiMeans.csv](https://github.com/ageller/IntroToGlue/blob/main/data/ChicagoTaxiMeans.csv) (Mean values at each pickup location)
 - Building Permits
   - Original dataset: Buildings / [Building-Permits](https://data.cityofchicago.org/Buildings/Building-Permits/ydr8-5enu/data) (2021 data with latitude and longitude)
-  - [ChicagoPermits.csv](https://github.com/ageller/IntroToGlue/blob/main/data/ChicagoPermits_10k.csv)
+  - [ChicagoPermits_10k.csv](https://github.com/ageller/IntroToGlue/blob/main/data/ChicagoPermits_10k.csv) (first 10k lines)
+  - [ChicagoPermits.csv](https://drive.google.com/file/d/1P7M8yYfFEOl9OV-MmZKL1M_P6FMRPYj8/view?usp=sharing) (full file 36k lines, on Google Drive)
 - Affordable Housing
   - Original dataset: Community-Economic-Development / [Affordable-Rental-Housing-Developments](https://data.cityofchicago.org/Community-Economic-Development/Affordable-Rental-Housing-Developments/s6ha-ppgi/data)
   - [ChicagoHousing.csv](https://github.com/ageller/IntroToGlue/blob/main/data/ChicagoHousing.csv)

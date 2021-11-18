@@ -1,6 +1,6 @@
 # Data Sets
 
-Please see the jupyter notebook (PrepChicagoData.ipynb) in this repository for more details.  In general, I downloaded data from the following websites and then took only the columns I was interested in (and converted some to numerical values) for the files in the repo.  Hopefully the column names self explanatory.
+Please see the jupyter notebook ([PrepChicagoData.ipynb](https://github.com/ageller/IntroToGlue/blob/main/data/PrepChicagoData.ipynb)) in this repository for more details.  In general, I downloaded data from the following websites and then took only the columns I was interested in (and converted some to numerical values) for the files in the repo.  Hopefully the column names self explanatory.
 
 Data were downloaded from the  [Chicago Data Portal](https://data.cityofchicago.org/).
 - Crimes
@@ -23,5 +23,5 @@ Data were downloaded from the  [Chicago Data Portal](https://data.cityofchicago.
   - Original dataset: Health-Human-Services / [COVID-19-Vaccinations-by-ZIP-Code](https://data.cityofchicago.org/Health-Human-Services/COVID-19-Vaccinations-by-ZIP-Code/553k-3xzc/data)
   - ChicagoVaccine.csv
 - Chicago map
-   - Satellite map of Chicago was downloaded using Google's Earth Engine.  See details in the PrepChicagoData.ipynb file.
+   - Satellite map of Chicago was downloaded using Google's Earth Engine.  See details in the [PrepChicagoData.ipynb](https://github.com/ageller/IntroToGlue/blob/main/data/PrepChicagoData.ipynb) notebook.
    - Street shapfile to test : Facilities & Geographic Boundaries / [Street Center Lines](https://data.cityofchicago.org/Transportation/Street-Center-Lines/6imu-meau)

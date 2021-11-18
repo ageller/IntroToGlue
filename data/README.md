@@ -5,23 +5,24 @@ Please see the jupyter notebook ([PrepChicagoData.ipynb](https://github.com/agel
 Data were downloaded from the  [Chicago Data Portal](https://data.cityofchicago.org/).
 - Crimes
   - Original dataset: Public-Safety / [Crimes-2001-to-Present](https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-Present/ijzp-q8t2/data) (2021 data)
-  - ChicagoCrime.csv
+  - [ChicagoCrime_10k.csv](https://github.com/ageller/IntroToGlue/blob/main/data/ChicagoCrime_10k.csv) (first 10k lines of the 2021 crime data)
 - Taxis
   - Original dataset: Transportation / [Taxi Trips](https://data.cityofchicago.org/Transportation/Taxi-Trips/wrvz-psew/data) (2021 data)
-  - ChicagoTaxi_10k.csv (first 10k lines of the 2021 taxi data)
-  - ChicagoTaxiMeans.csv (Mean values at each pickup location)
+  - [ChicagoTaxi_10k.csv](https://github.com/ageller/IntroToGlue/blob/main/data/ChicagoTaxi_10k.csv) (first 10k lines of the 2021 taxi data)
+  - [ChicagoTaxiMeans.csv](https://github.com/ageller/IntroToGlue/blob/main/data/ChicagoTaxiMeans.csv) (Mean values at each pickup location)
 - Building Permits
   - Original dataset: Buildings / [Building-Permits](https://data.cityofchicago.org/Buildings/Building-Permits/ydr8-5enu/data) (2021 data with latitude and longitude)
-  - ChicagoPermits.csv
+  - [ChicagoPermits.csv](https://github.com/ageller/IntroToGlue/blob/main/data/ChicagoPermits_10k.csv)
 - Affordable Housing
   - Original dataset: Community-Economic-Development / [Affordable-Rental-Housing-Developments](https://data.cityofchicago.org/Community-Economic-Development/Affordable-Rental-Housing-Developments/s6ha-ppgi/data)
-  - ChicagoHousing.csv
+  - [ChicagoHousing.csv](https://github.com/ageller/IntroToGlue/blob/main/data/ChicagoHousing.csv)
 - Public Schools
   - Original dataset: Education / [Chicago-Public-Schools-School-Progress-Reports-SY2](https://data.cityofchicago.org/Education/Chicago-Public-Schools-School-Progress-Reports-SY2/ngix-dc87/data)
-  - ChicagoSchools.csv
+  - [ChicagoSchools.csv](https://github.com/ageller/IntroToGlue/blob/main/data/ChicagoSchools.csv)
 - COVID-19 Vaccinations
   - Original dataset: Health-Human-Services / [COVID-19-Vaccinations-by-ZIP-Code](https://data.cityofchicago.org/Health-Human-Services/COVID-19-Vaccinations-by-ZIP-Code/553k-3xzc/data)
-  - ChicagoVaccine.csv
+  - [ChicagoVaccine.csv](https://github.com/ageller/IntroToGlue/blob/main/data/ChicagoVaccine.csv)
 - Chicago map
    - Satellite map of Chicago was downloaded using Google's Earth Engine.  See details in the [PrepChicagoData.ipynb](https://github.com/ageller/IntroToGlue/blob/main/data/PrepChicagoData.ipynb) notebook.
    - Street shapfile to test : Facilities & Geographic Boundaries / [Street Center Lines](https://data.cityofchicago.org/Transportation/Street-Center-Lines/6imu-meau)
+   - [ChicagoGeoTIFF.tif](https://github.com/ageller/IntroToGlue/blob/main/data/ChicagoGeoTIFF.tif)

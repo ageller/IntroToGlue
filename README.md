@@ -1,6 +1,6 @@
 # Data exploration using Glue
 
-Data exploration is an important initial step in any research project, where you may examine your data by creating many plots, select different regions in parameter space to investigate, and explore how different datasets relate to one another.  The Glue visualization application (https://glueviz.org/) is an easy, but powerful, way to explore a variety of data types across multiple disciplines without any coding.  In this workshop, I will provide an introduction to the basic functions of Glue through hands-on exercises.  
+Data exploration is an important initial step in any research project, where you might examine your data by creating many plots, select different regions in parameter space to investigate, and explore how different datasets relate to one another.  The Glue visualization application (https://glueviz.org/) is an easy, but powerful, way to explore a variety of data types across multiple disciplines without any coding.  In this workshop, I will provide an introduction to the basic functions of Glue through hands-on exercises.  
 
 Prior to the workshop please install Glue on your own computer; instructions can be found on this workshop's GitHub repository : https://github.com/ageller/IntroToGlue.  I will provide a handful of datasets, though I also encourage you to bring your own data to explore with Glue.  There are no other prerequisites for this workshop.
 

@@ -11,22 +11,20 @@ Prior to the workshop please install Glue on your own computer; instructions can
 
 The easiest installation method is to download the standalone executable file from the Glue website.  [See here for instructions.](https://glueviz.readthedocs.io/en/stable/installation/standalone.html)  This version lacks various useful plugins (by default), but you can attempt to install them afterward you install Glue.  To do so, open the Glue application on your computer and click on the "Plugins" menu in the top bar and select "Plugin Manager".  In this workshop I will demo the glue-geospatial plugin; I recommend that you install that on your Glue version as well.  You may choose to install other plugins as you so desire.  
 
-I have sometimes noticed strange behavior on various machines when installing plugins using the method above.  So I recommend installing Glue with Python, and, specifically, I recommend [installing using the Anaconda Python distribution](https://glueviz.readthedocs.io/en/stable/installation/conda.html).  After installing Anaconda, you can either install Glue via the Anaconda Navigator GUI, or you can install Glue with the following commands.  (I've found that the order of these installation commands is important; please follow the order below.)  In either case, I recommend creating a new conda environment for Glue.
+I have sometimes noticed strange behavior on various machines when installing plugins using the method above, and not all plugins appear to be available on every OS through the standalone executable.  An alternative is to install Glue [using conda](https://glueviz.readthedocs.io/en/stable/installation/conda.html) or [using pip](https://docs.glueviz.org/en/stable/installation/pip.html), preferably through [miniforge](https://github.com/conda-forge/miniforge).  On my Windows laptop, I have had most luck using the pip installation method.  I recommend creating a new virtual environment for Glue, which I will do with conda.
 
 
 ```
 $ conda create -n glueviz-env python=3.9
 $ conda activate glueviz-env
-$ conda install -c glueviz glueviz=1.2
-$ conda install -c conda-forge rasterio
-$ conda install -c conda-forge pyproj
-$ conda install -c glueviz glue-geospatial 
-$ conda install -c glueviz glue-plotly
+$ pip install glueviz[all,qt] glue-geospatial glue-plotly pyQt5 
 ```
+
+If you encounter any trouble installing the plugins (and probably the issue would be with the geospatial plugin), that is OK!  You can still work through nearly all of this workshop with the default Glue installation you get when downloaded the executable file.
 
 ### 2. Launching Glue
 
-If you downloaded the standalone executable for Glue, you can launch it by double clicking.  If you installed Glue with the Anaconda and prefer to use the Navigator GUI, you should have a panel on your home screen marked as Glue that you can click on.  If you installed Glue through python on the command line, you can launch Glue by typing.
+If you downloaded the standalone executable for Glue, you can launch it by double clicking.  If you installed Glue with conda on the command line, you can launch Glue by typing.
 
 ```
 $ glue

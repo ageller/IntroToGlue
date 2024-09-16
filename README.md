@@ -20,6 +20,8 @@ $ conda activate glueviz-env
 $ pip install glueviz[all,qt] glue-geospatial glue-plotly pyQt5 
 ```
 
+For Mac users, you may have to remove the `[all,qt]` portion of the `pip` command above.
+
 If you encounter any trouble installing the plugins (and probably the issue would be with the geospatial plugin), that is OK!  You can still work through nearly all of this workshop with the default Glue installation you get when downloaded the executable file.
 
 ### 2. Launching Glue
